@@ -1,0 +1,74 @@
+﻿body {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #f0f7f3, #e3eee8);
+    color: #263d32;
+    font-family: "Segoe UI", sans-serif;
+}
+
+h1 {
+    margin: 40px 0 30px;
+    color: #245740;
+    font-size: 38px;
+    font-weight: 800;
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+
+    h1::after {
+        content: "";
+        display: block;
+        width: 65px;
+        height: 4px;
+        margin: 14px auto;
+        background-color: #d7ad60;
+        border-radius: 10px;
+    }
+
+/* Each product */
+.product-list {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 650px;
+    margin: 14px auto;
+    padding: 20px 25px;
+    list-style: none;
+    background-color: #fff;
+    border: 1px solid #dce8df;
+    border-left: 5px solid #37815b;
+    border-radius: 14px;
+    box-shadow: 0 5px 18px rgba(36, 87, 64, 0.07);
+    color: #305440;
+    font-size: 18px;
+    font-weight: 600;
+    transition: transform 0.25s, box-shadow 0.25s;
+}
+
+    .product-list:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 10px 24px rgba(36, 87, 64, 0.14);
+    }
+
+/* Messages directly inside the page content */
+main > p {
+    max-width: 650px;
+    margin: 18px auto;
+    padding: 15px 20px;
+    background-color: #dfede4;
+    border: 1px solid #c5ddcd;
+    border-radius: 10px;
+    color: #28553b;
+    text-align: center;
+    font-size: 15px;
+}
+
+@media (max-width: 576px) {
+    h1 {
+        font-size: 30px;
+    }
+
+    .product-list {
+        padding: 16px 20px;
+        font-size: 16px;
+    }
+}

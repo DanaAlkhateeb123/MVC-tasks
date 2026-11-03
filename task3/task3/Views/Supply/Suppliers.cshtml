@@ -1,0 +1,25 @@
+﻿<div class="container py-5">
+    <h1 class="text-center text-primary mb-4">
+        @ViewBag.PageTitle
+    </h1>
+
+    <div class="card shadow-sm mb-4">
+        <div class="card-body text-center">
+            <h5>Number of Suppliers</h5>
+            <p class="fs-4 mb-0">@ViewBag.NumberOfSuppliers</p>
+        </div>
+    </div>
+
+    <div class="row g-4">
+        @foreach (string item in ViewBag.array)
+        {
+            <div class="col-md-4">
+                <div class="card shadow-sm h-100">
+                    <div class="card-body text-center">
+                        <h5 class="mb-0">@item</h5>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>

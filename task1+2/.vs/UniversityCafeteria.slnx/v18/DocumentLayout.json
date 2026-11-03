@@ -1,29 +1,29 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\MVC-tasks\\day1\\",
+  "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\MVC-tasks\\task1\u002B2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{66801BA3-C76F-D404-9B01-79D62F8A46FC}|day1\\day1.csproj|c:\\users\\user\\desktop\\mvc-tasks\\day1\\day1\\wwwroot\\css\\products.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{66801BA3-C76F-D404-9B01-79D62F8A46FC}|day1\\day1.csproj|solutionrelative:day1\\wwwroot\\css\\products.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{66801BA3-C76F-D404-9B01-79D62F8A46FC}|day1\\day1.csproj|c:\\users\\user\\desktop\\mvc-tasks\\day1\\day1\\views\\cafeteria\\products.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{66801BA3-C76F-D404-9B01-79D62F8A46FC}|day1\\day1.csproj|c:\\users\\user\\desktop\\mvc-tasks\\task1\u002B2\\day1\\views\\cafeteria\\products.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{66801BA3-C76F-D404-9B01-79D62F8A46FC}|day1\\day1.csproj|solutionrelative:day1\\views\\cafeteria\\products.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{66801BA3-C76F-D404-9B01-79D62F8A46FC}|day1\\day1.csproj|c:\\users\\user\\desktop\\mvc-tasks\\day1\\day1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{66801BA3-C76F-D404-9B01-79D62F8A46FC}|day1\\day1.csproj|c:\\users\\user\\desktop\\mvc-tasks\\task1\u002B2\\day1\\wwwroot\\css\\products.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{66801BA3-C76F-D404-9B01-79D62F8A46FC}|day1\\day1.csproj|solutionrelative:day1\\wwwroot\\css\\products.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66801BA3-C76F-D404-9B01-79D62F8A46FC}|day1\\day1.csproj|c:\\users\\user\\desktop\\mvc-tasks\\task1\u002B2\\day1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{66801BA3-C76F-D404-9B01-79D62F8A46FC}|day1\\day1.csproj|solutionrelative:day1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{66801BA3-C76F-D404-9B01-79D62F8A46FC}|day1\\day1.csproj|c:\\users\\user\\desktop\\mvc-tasks\\day1\\day1\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{66801BA3-C76F-D404-9B01-79D62F8A46FC}|day1\\day1.csproj|c:\\users\\user\\desktop\\mvc-tasks\\task1\u002B2\\day1\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{66801BA3-C76F-D404-9B01-79D62F8A46FC}|day1\\day1.csproj|solutionrelative:day1\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{66801BA3-C76F-D404-9B01-79D62F8A46FC}|day1\\day1.csproj|c:\\users\\user\\desktop\\mvc-tasks\\day1\\day1\\views\\shared\\_mainlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{66801BA3-C76F-D404-9B01-79D62F8A46FC}|day1\\day1.csproj|c:\\users\\user\\desktop\\mvc-tasks\\task1\u002B2\\day1\\views\\shared\\_mainlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{66801BA3-C76F-D404-9B01-79D62F8A46FC}|day1\\day1.csproj|solutionrelative:day1\\views\\shared\\_mainlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{66801BA3-C76F-D404-9B01-79D62F8A46FC}|day1\\day1.csproj|c:\\users\\user\\desktop\\mvc-tasks\\day1\\day1\\views\\cafeteria\\supplystatus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{66801BA3-C76F-D404-9B01-79D62F8A46FC}|day1\\day1.csproj|c:\\users\\user\\desktop\\mvc-tasks\\task1\u002B2\\day1\\views\\cafeteria\\supplystatus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{66801BA3-C76F-D404-9B01-79D62F8A46FC}|day1\\day1.csproj|solutionrelative:day1\\views\\cafeteria\\supplystatus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
@@ -34,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -44,9 +44,9 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "_ViewStart.cshtml",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MVC-tasks\\day1\\day1\\Views\\_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MVC-tasks\\task1\u002B2\\day1\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "day1\\Views\\_ViewStart.cshtml",
-              "ToolTip": "C:\\Users\\user\\Desktop\\MVC-tasks\\day1\\day1\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\MVC-tasks\\task1\u002B2\\day1\\Views\\_ViewStart.cshtml",
               "RelativeToolTip": "day1\\Views\\_ViewStart.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -56,9 +56,9 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MVC-tasks\\day1\\day1\\Views\\Shared\\_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MVC-tasks\\task1\u002B2\\day1\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "day1\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\user\\Desktop\\MVC-tasks\\day1\\day1\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\MVC-tasks\\task1\u002B2\\day1\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "day1\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -68,9 +68,9 @@
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "_MainLayout.cshtml",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MVC-tasks\\day1\\day1\\Views\\Shared\\_MainLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MVC-tasks\\task1\u002B2\\day1\\Views\\Shared\\_MainLayout.cshtml",
               "RelativeDocumentMoniker": "day1\\Views\\Shared\\_MainLayout.cshtml",
-              "ToolTip": "C:\\Users\\user\\Desktop\\MVC-tasks\\day1\\day1\\Views\\Shared\\_MainLayout.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\MVC-tasks\\task1\u002B2\\day1\\Views\\Shared\\_MainLayout.cshtml",
               "RelativeToolTip": "day1\\Views\\Shared\\_MainLayout.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -78,36 +78,36 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Products.cshtml",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MVC-tasks\\day1\\day1\\Views\\Cafeteria\\Products.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MVC-tasks\\task1\u002B2\\day1\\Views\\Cafeteria\\Products.cshtml",
               "RelativeDocumentMoniker": "day1\\Views\\Cafeteria\\Products.cshtml",
-              "ToolTip": "C:\\Users\\user\\Desktop\\MVC-tasks\\day1\\day1\\Views\\Cafeteria\\Products.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\MVC-tasks\\task1\u002B2\\day1\\Views\\Cafeteria\\Products.cshtml",
               "RelativeToolTip": "day1\\Views\\Cafeteria\\Products.cshtml",
               "ViewState": "AgIAAAcAAAAAAAAAAAAkwB0AAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-11-02T18:08:00.196Z"
+              "WhenOpened": "2026-11-02T18:08:00.196Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "products.css",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MVC-tasks\\day1\\day1\\wwwroot\\css\\products.css",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MVC-tasks\\task1\u002B2\\day1\\wwwroot\\css\\products.css",
               "RelativeDocumentMoniker": "day1\\wwwroot\\css\\products.css",
-              "ToolTip": "C:\\Users\\user\\Desktop\\MVC-tasks\\day1\\day1\\wwwroot\\css\\products.css",
+              "ToolTip": "C:\\Users\\user\\Desktop\\MVC-tasks\\task1\u002B2\\day1\\wwwroot\\css\\products.css",
               "RelativeToolTip": "day1\\wwwroot\\css\\products.css",
               "ViewState": "AgIAACgAAAAAAAAAAAAUwEoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2026-11-02T18:07:11.279Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-02T18:07:11.279Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "SupplyStatus.cshtml",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MVC-tasks\\day1\\day1\\Views\\Cafeteria\\SupplyStatus.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MVC-tasks\\task1\u002B2\\day1\\Views\\Cafeteria\\SupplyStatus.cshtml",
               "RelativeDocumentMoniker": "day1\\Views\\Cafeteria\\SupplyStatus.cshtml",
-              "ToolTip": "C:\\Users\\user\\Desktop\\MVC-tasks\\day1\\day1\\Views\\Cafeteria\\SupplyStatus.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\MVC-tasks\\task1\u002B2\\day1\\Views\\Cafeteria\\SupplyStatus.cshtml",
               "RelativeToolTip": "day1\\Views\\Cafeteria\\SupplyStatus.cshtml",
               "ViewState": "AgIAADEAAAAAAAAAAAAAAEcAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",

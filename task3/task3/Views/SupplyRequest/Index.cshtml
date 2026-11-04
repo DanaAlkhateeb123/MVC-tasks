@@ -1,0 +1,23 @@
+﻿<form method="post" action=@Url.Action("AddItem", "SupplyRequest")>
+    <label>Product Name : </label><br />
+    <input type="text" name="PName" />
+    <br /><br />
+    <label>Category : </label><br />
+    <input type="text" name="category" />
+    <br /><br />
+    <label>Quantity : </label><br />
+    <input type="number" name="quantity" />
+    <br /><br />
+    <label>Unit Price : </label><br />
+    <input type="number" name="price" />
+    <br /><br />
+    <label>Priority : </label><br />
+    <select name="priority">
+        <option value="normal">Normal</option>
+        <option value="urgent">Urgent</option>
+        <option value="emergency">Emergency</option>
+
+    </select>
+    <br /><br />
+    <button type="submit"></button>
+</form>

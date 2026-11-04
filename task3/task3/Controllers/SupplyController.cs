@@ -57,6 +57,7 @@ namespace task3.Controllers
             string productName = Request.Form["ProductName"].ToString();
             string quantityText = Request.Form["Quantity"].ToString();
             string requiredDate = Request.Form["RequiredDate"].ToString();
+            TempData["employeename"] = employeeName; 
             if (string.IsNullOrWhiteSpace(employeeName))
             {
                 ViewBag.Error = "Please enter the employee name.";
@@ -64,7 +65,7 @@ namespace task3.Controllers
                 return View("CreateRequest");
             }
 
-            TempData["Message"] = "Request submitted successfully!";
+            TempData["Message"] = "Request submitted successfull y!";
 
             return RedirectToAction("About");
         }

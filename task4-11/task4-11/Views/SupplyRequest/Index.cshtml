@@ -1,0 +1,104 @@
+﻿
+@if (ViewBag.PreferredPriority != null)
+{
+    <p class="alert alert-info">
+        Your saved priority is: @ViewBag.PreferredPriority
+    </p>
+}
+
+<h3>Save Your Preferred Priority</h3>
+
+<form method="post" action="@Url.Action("SavePreference", "SupplyRequest")">
+
+    <label>Preferred Priority:</label>
+
+    <select name="priority" class="form-select">
+        <option value="normal">Normal</option>
+        <option value="urgent">Urgent</option>
+        <option value="emergency">Emergency</option>
+    </select>
+
+    <button type="submit" class="btn btn-primary mt-2">
+        Save Preference
+    </button>
+
+</form>
+<br />
+<br />
+
+
+<form method="post" action=@Url.Action("AddItem", "SupplyRequest")>
+    <label>Product Name : </label><br />
+    <input type="text" name="PName" required />
+    <br /><br />
+
+    <label>Category : </label><br />
+    <input type="text" name="category" />
+    <br /><br />
+
+    <label>Quantity : </label><br />
+    <input type="number" name="quantity" />
+    <br /><br />
+
+    <label>Unit Price : </label><br />
+    <input type="number" name="price" step="0.01" />
+    <br /><br />
+
+    <label>Priority : </label><br />
+    <select name="priority" class="form-select">
+
+        <option value="normal"
+                selected="@(ViewBag.PreferredPriority == "normal")">
+            Normal
+        </option>
+
+        <option value="urgent"
+                selected="@(ViewBag.PreferredPriority == "urgent")">
+            Urgent
+        </option>
+
+        <option value="emergency"
+                selected="@(ViewBag.PreferredPriority == "emergency")">
+            Emergency
+        </option>
+
+    </select>
+
+    <br /><br />
+
+    <button type="submit">Submit</button>
+</form>
+<h3>Added Products</h3>
+
+<table class="table table-bordered">
+    <tr>
+        <th>Product Name</th>
+        <th>Category</th>
+        <th>Quantity</th>
+        <th>Price</th>
+        <th>Priority</th>
+        <th>Total</th>
+    </tr>
+
+    @foreach (var item in ViewBag.products)
+    {
+        <tr>
+            <td>@item[0]</td>
+            <td>@item[1]</td>
+            <td>@item[2]</td>
+            <td>@item[3]</td>
+            <td>@item[4]</td>
+            <td>@item[5]</td>
+        </tr>
+    }
+</table>
+
+<a href="@Url.Action("Review", "SupplyRequest")">
+    Review Request
+</a>
+<br />
+<a href="@Url.Action("MyRequests", "SupplyRequest")">
+    My Requests
+</a>
+<br />
+<a href="@Url.Action("ClearDraft")">Clear Draft</a>

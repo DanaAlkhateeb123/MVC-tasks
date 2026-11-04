@@ -1,0 +1,42 @@
+﻿@{
+    ViewData["Title"] = "My Requests";
+}
+
+<div class="container mt-4">
+
+    <h2>My Confirmed Requests</h2>
+
+    <table class="table table-bordered table-striped">
+
+        <thead>
+            <tr>
+                <th>Request ID</th>
+                <th>Product Count</th>
+                <th>Subtotal</th>
+                <th>Preparation Fee</th>
+                <th>Discount</th>
+                <th>Final Total</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+
+        <tbody>
+
+            @foreach (var request in ViewBag.requests)
+            {
+                <tr>
+                    <td>@request[0]</td>
+                    <td>@request[1]</td>
+                    <td>@request[2] JD</td>
+                    <td>@request[3] JD</td>
+                    <td>@request[4] JD</td>
+                    <td>@request[5] JD</td>
+                    <td>@request[6]</td>
+                </tr>
+            }
+
+        </tbody>
+
+    </table>
+
+</div>

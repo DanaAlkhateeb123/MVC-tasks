@@ -1,0 +1,35 @@
+﻿@using task66.Models
+@model List<Product>
+
+<h1>Products</h1>
+
+<p>
+    @Html.ActionLink("Add New Product", "Create")
+</p>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Price</th>
+            <th>Quantity</th>
+            <th>Category</th>
+            <th>Supplier</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (var product in Model)
+        {
+            <tr>
+                <td>@product.Id</td>
+                <td>@product.Name</td>
+                <td>@product.Price.ToString("0.00")</td>
+                <td>@product.Quantity</td>
+                <td>@(product.category?.Name)</td>
+                <td>@(product.supplier?.Name)</td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\MVC-tasks\\day5-11\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{ABCFE782-777A-45CC-95D3-068D548F5D1D}|day5-11\\day5-11.csproj|c:\\users\\user\\desktop\\mvc-tasks\\day5-11\\day5-11\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{ABCFE782-777A-45CC-95D3-068D548F5D1D}|day5-11\\day5-11.csproj|solutionrelative:day5-11\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MVC-tasks\\day5-11\\day5-11\\appsettings.json",
+              "RelativeDocumentMoniker": "day5-11\\appsettings.json",
+              "ToolTip": "C:\\Users\\user\\Desktop\\MVC-tasks\\day5-11\\day5-11\\appsettings.json",
+              "RelativeToolTip": "day5-11\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-11-05T07:20:01.901Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

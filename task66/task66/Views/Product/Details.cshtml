@@ -1,0 +1,15 @@
+﻿@using task66.Models
+@model Product
+
+<h1>Product Details</h1>
+
+<p><strong>ID:</strong> @Model.Id</p>
+<p><strong>Name:</strong> @Model.Name</p>
+<p><strong>Price:</strong> @Model.Price</p>
+<p><strong>Quantity:</strong> @Model.Quantity</p>
+<p><strong>Category:</strong> @(Model.category?.Name)</p>
+<p><strong>Supplier:</strong> @(Model.supplier?.Name)</p>
+
+<a asp-controller="Product"
+   asp-action="Index"
+   class="btn btn-secondary">Back to Products</a>

@@ -1,0 +1,16 @@
+﻿@using task66.Models
+@model Employee
+
+<h1>Employee Details</h1>
+
+<p><strong>ID:</strong> @Model.Id</p>
+<p><strong>Full Name:</strong> @Model.FullName</p>
+<p><strong>Phone:</strong> @Model.Phone</p>
+<p><strong>Email:</strong> @Model.Email</p>
+<p><strong>Position:</strong> @Model.Position</p>
+<p><strong>Salary:</strong> @Model.Salary.ToString("0.00")</p>
+<p><strong>Hire Date:</strong> @Model.HireDate.ToString("dd/MM/yyyy")</p>
+
+<a asp-controller="Employee"
+   asp-action="Index"
+   class="btn btn-secondary">Back to Employees</a>

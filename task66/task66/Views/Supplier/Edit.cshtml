@@ -1,0 +1,31 @@
+﻿@using task66.Models
+@model Supplier
+
+<h1>edit record</h1>
+
+<form asp-controller="Supplier" asp-action="Edit" asp-route-id="@Model.Id" method="post">
+    <div class="mb-3">
+        <label for="Name" class="form-label">Name</label>
+        <input asp-for="Name" type="text" class="form-control" />
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label for="Phone" class="form-label">Phone</label>
+        <input asp-for="Phone" type="text" class="form-control" />
+        <span asp-validation-for="Phone" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label for="Email" class="form-label">Email</label>
+        <textarea asp-for="Email" class="form-control" rows="3"></textarea>
+        <span asp-validation-for="Email" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-success">Save</button>
+</form>
+
+<p>
+    <a asp-controller="Supplier" asp-action="Index">Back to Suppliers</a>
+</p>
+

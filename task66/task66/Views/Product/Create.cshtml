@@ -4,72 +4,47 @@
 
 <h1>Add Product</h1>
 
-@using (Html.BeginForm("Create", "Product", FormMethod.Post))
-{
-    @Html.AntiForgeryToken()
-
-    @Html.ValidationSummary(false, "", new { @class = "text-danger" })
+<form asp-controller="Product" asp-action="Create" method="post">
+    <div asp-validation-summary="All" class="text-danger"></div>
 
     <div class="mb-3">
-        @Html.LabelFor(m => m.Name)
-
-        @Html.TextBoxFor(
-            m => m.Name,
-            new { @class = "form-control" })
+        <label for="Name" class="form-label">Name</label>
+        <input asp-for="Name" type="text" class="form-control" />
     </div>
 
     <div class="mb-3">
-        @Html.LabelFor(m => m.Price)
-
-        @Html.TextBoxFor(
-            m => m.Price,
-            new
-            {
-                @class = "form-control",
-                type = "number",
-                step = "0.01",
-                min = "0.01"
-            })
+        <label for="Price" class="form-label">Price</label>
+        <input asp-for="Price" type="number" step="0.01" min="0.01"
+               class="form-control" />
     </div>
 
     <div class="mb-3">
-        @Html.LabelFor(m => m.Quantity)
-
-        @Html.TextBoxFor(
-            m => m.Quantity,
-            new
-            {
-                @class = "form-control",
-                type = "number",
-                min = "0"
-            })
+        <label for="Quantity" class="form-label">Quantity</label>
+        <input asp-for="Quantity" type="number" min="0"
+               class="form-control" />
     </div>
 
     <div class="mb-3">
-        <label>Category</label>
-
-        @Html.DropDownListFor(
-            m => m.CategoryId,
-            (SelectList)ViewBag.CategoryOptions,
-            "-- Select Category --",
-            new { @class = "form-select" })
+        <label for="CategoryId" class="form-label">Category</label>
+        <select asp-for="CategoryId"
+                asp-items="@(ViewBag.CategoryOptions as SelectList)"
+                class="form-select">
+            <option value="">-- Select Category --</option>
+        </select>
     </div>
 
     <div class="mb-3">
-        <label>Supplier</label>
-
-        @Html.DropDownListFor(
-            m => m.SupplierId,
-            (SelectList)ViewBag.SupplierOptions,
-            "-- Select Supplier --",
-            new { @class = "form-select" })
+        <label for="SupplierId" class="form-label">Supplier</label>
+        <select asp-for="SupplierId"
+                asp-items="@(ViewBag.SupplierOptions as SelectList)"
+                class="form-select">
+            <option value="">-- Select Supplier --</option>
+        </select>
     </div>
 
-    <button type="submit" class="btn btn-success">
-        Save
-    </button>
-}
+    <button type="submit" class="btn btn-success">Save</button>
+</form>
 
 <p>
-    @Html.ActionLink("Back to Products", "Index")
+    <a asp-controller="Product" asp-action="Index">Back to Products</a>
 </p>

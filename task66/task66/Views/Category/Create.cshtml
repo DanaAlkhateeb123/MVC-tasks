@@ -3,45 +3,22 @@
 
 <h1>Add Category</h1>
 
-@using (Html.BeginForm("Create", "Category", FormMethod.Post))
-{
-    @Html.AntiForgeryToken()
-
+<form asp-controller="Category" asp-action="Create" method="post">
     <div class="mb-3">
-        @Html.LabelFor(
-            model => model.Name,
-            new { @class = "form-label" })
-
-        @Html.TextBoxFor(
-            model => model.Name,
-            new { @class = "form-control" })
-
-        @Html.ValidationMessageFor(
-            model => model.Name,
-            "",
-            new { @class = "text-danger" })
+        <label for="Name" class="form-label">Name</label>
+        <input asp-for="Name" type="text" class="form-control" />
+        <span asp-validation-for="Name" class="text-danger"></span>
     </div>
 
     <div class="mb-3">
-        @Html.LabelFor(
-            model => model.Description,
-            new { @class = "form-label" })
-
-        @Html.TextAreaFor(
-            model => model.Description,
-            new { @class = "form-control", rows = 3 })
-
-        @Html.ValidationMessageFor(
-            model => model.Description,
-            "",
-            new { @class = "text-danger" })
+        <label for="Description" class="form-label">Description</label>
+        <textarea asp-for="Description" class="form-control" rows="3"></textarea>
+        <span asp-validation-for="Description" class="text-danger"></span>
     </div>
 
-    <button type="submit" class="btn btn-success">
-        Save
-    </button>
-}
+    <button type="submit" class="btn btn-success">Save</button>
+</form>
 
 <p>
-    @Html.ActionLink("Back to Categories", "Index")
+    <a asp-controller="Category" asp-action="Index">Back to Categories</a>
 </p>

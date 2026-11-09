@@ -38,25 +38,11 @@ namespace task66.Controllers
         [ValidateAntiForgeryToken]
         public IActionResult Create(Product product)
         {
-            if (!_context.Categories.Any(
-                c => c.Id == product.CategoryId))
-            {
-                ModelState.AddModelError(
-                    "CategoryId", "Please select a valid category.");
-            }
-
-            if (!_context.Suppliers.Any(
-                s => s.Id == product.SupplierId))
-            {
-                ModelState.AddModelError(
-                    "SupplierId", "Please select a valid supplier.");
-            }
+            ValidateCategoryAndSupplier(product);
 
             if (!ModelState.IsValid)
             {
-                LoadDropdowns(
-                    product.CategoryId,
-                    product.SupplierId);
+                LoadDropdowns(product.CategoryId, product.SupplierId);
 
                 return View(product);
             }
@@ -64,7 +50,85 @@ namespace task66.Controllers
             _context.Products.Add(product);
             _context.SaveChanges();
 
-            return RedirectToAction("Index");
+            return RedirectToAction(nameof(Index));
+        }
+
+        [HttpGet]
+        public IActionResult Edit(int id)
+        {
+            var product = _context.Products.Find(id);
+
+            if (product == null)
+            {
+                return NotFound();
+            }
+
+            LoadDropdowns(product.CategoryId, product.SupplierId);
+
+            return View(product);
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult Edit(Product product)
+        {
+            var existingProduct = _context.Products.Find(product.Id);
+
+            if (existingProduct == null)
+            {
+                return NotFound();
+            }
+
+            ValidateCategoryAndSupplier(product);
+
+            if (!ModelState.IsValid)
+            {
+                LoadDropdowns(product.CategoryId, product.SupplierId);
+
+                return View(product);
+            }
+
+            existingProduct.Name = product.Name;
+            existingProduct.Price = product.Price;
+            existingProduct.Quantity = product.Quantity;
+            existingProduct.CategoryId = product.CategoryId;
+            existingProduct.SupplierId = product.SupplierId;
+
+            _context.SaveChanges();
+
+            return RedirectToAction(nameof(Index));
+        }
+
+        [HttpGet]
+        public IActionResult Details(int id)
+        {
+            var product = _context.Products
+                .Include(p => p.category)
+                .Include(p => p.supplier)
+                .FirstOrDefault(p => p.Id == id);
+
+            if (product == null)
+            {
+                return NotFound();
+            }
+
+            return View(product);
+        }
+
+        [HttpGet]
+        public IActionResult Delete(int id)
+        {
+            var product = _context.Products.Find(id);
+
+            if (product == null)
+            {
+                return NotFound();
+            }
+
+            _context.Products.Remove(product);
+            _context.SaveChanges();
+
+            return RedirectToAction(nameof(Index));
         }
 
         private void LoadDropdowns(
@@ -82,6 +146,23 @@ namespace task66.Controllers
                 "Id",
                 "Name",
                 supplierId);
+        }
+
+        private void ValidateCategoryAndSupplier(Product product)
+        {
+            if (!_context.Categories.Any(c => c.Id == product.CategoryId))
+            {
+                ModelState.AddModelError(
+                    nameof(Product.CategoryId),
+                    "Please select a valid category.");
+            }
+
+            if (!_context.Suppliers.Any(s => s.Id == product.SupplierId))
+            {
+                ModelState.AddModelError(
+                    nameof(Product.SupplierId),
+                    "Please select a valid supplier.");
+            }
         }
     }
 }

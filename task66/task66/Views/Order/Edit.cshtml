@@ -1,0 +1,47 @@
+﻿@using task66.Models
+@using Microsoft.AspNetCore.Mvc.Rendering
+@model Order
+
+<h1>Edit Order</h1>
+
+<form asp-controller="Order"
+      asp-action="Edit"
+      asp-route-id="@Model.Id"
+      method="post">
+
+    <div asp-validation-summary="All" class="text-danger"></div>
+
+    <div class="mb-3">
+        <label for="CustomerName" class="form-label">Customer Name</label>
+        <input asp-for="CustomerName" type="text" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label for="OrderDate" class="form-label">Order Date</label>
+        <input asp-for="OrderDate" type="date" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label for="TotalPrice" class="form-label">Total Price</label>
+        <input asp-for="TotalPrice" type="number" step="0.01" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label for="Status" class="form-label">Status</label>
+        <input asp-for="Status" type="text" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label for="EmployeeId" class="form-label">Employee</label>
+        <select asp-for="EmployeeId"
+                asp-items="@(ViewBag.EmployeeOptions as SelectList)"
+                class="form-select">
+            <option value="">-- Select Employee --</option>
+        </select>
+    </div>
+
+    <button type="submit" class="btn btn-success">Save</button>
+    <a asp-controller="Order" asp-action="Index" class="btn btn-secondary">
+        Back to Orders
+    </a>
+</form>

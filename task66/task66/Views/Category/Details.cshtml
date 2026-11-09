@@ -1,0 +1,10 @@
+﻿@using task66.Models
+@model Category
+
+<h1>Category Details</h1>
+
+<p><strong>ID:</strong> @Model.Id</p>
+<p><strong>Name:</strong> @Model.Name</p>
+<p><strong>Description:</strong> @Model.Description</p>
+
+<a asp-controller="Category" asp-action="Index">Back to Categories</a>

@@ -1,0 +1,52 @@
+﻿@using task66.Models
+@using Microsoft.AspNetCore.Mvc.Rendering
+@model Product
+
+<h1>Edit Product</h1>
+
+<form asp-controller="Product"
+      asp-action="Edit"
+      asp-route-id="@Model.Id"
+      method="post">
+
+    <div asp-validation-summary="All" class="text-danger"></div>
+
+    <div class="mb-3">
+        <label for="Name" class="form-label">Name</label>
+        <input asp-for="Name" type="text" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label for="Price" class="form-label">Price</label>
+        <input asp-for="Price" type="number" step="1" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label for="Quantity" class="form-label">Quantity</label>
+        <input asp-for="Quantity" type="number" step="1" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label for="CategoryId" class="form-label">Category</label>
+        <select asp-for="CategoryId"
+                asp-items="@(ViewBag.CategoryOptions as SelectList)"
+                class="form-select">
+            <option value="">-- Select Category --</option>
+        </select>
+    </div>
+
+    <div class="mb-3">
+        <label for="SupplierId" class="form-label">Supplier</label>
+        <select asp-for="SupplierId"
+                asp-items="@(ViewBag.SupplierOptions as SelectList)"
+                class="form-select">
+            <option value="">-- Select Supplier --</option>
+        </select>
+    </div>
+
+    <button type="submit" class="btn btn-success">Save</button>
+
+    <a asp-controller="Product"
+       asp-action="Index"
+       class="btn btn-secondary">Back to Products</a>
+</form>

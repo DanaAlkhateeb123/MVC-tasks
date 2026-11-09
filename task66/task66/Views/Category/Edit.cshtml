@@ -1,0 +1,25 @@
+﻿@using task66.Models
+@model Category
+
+<h1>edit record</h1>
+
+<form asp-controller="Category" asp-action="Edit" asp-route-id="@Model.Id" method="post">
+    <div class="mb-3">
+        <label for="Name" class="form-label">Name</label>
+        <input asp-for="Name" type="text" class="form-control" />
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label for="Description" class="form-label">Description</label>
+        <textarea asp-for="Description" class="form-control" rows="3"></textarea>
+        <span asp-validation-for="Description" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-success">Save</button>
+</form>
+
+<p>
+    <a asp-controller="Category" asp-action="Index">Back to Categories</a>
+</p>
+

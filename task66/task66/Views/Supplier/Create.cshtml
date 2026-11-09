@@ -3,41 +3,27 @@
 
 <h1>Add Supplier</h1>
 
-@using (Html.BeginForm("Create", "Supplier", FormMethod.Post))
-{
-    @Html.AntiForgeryToken()
-
-    @Html.ValidationSummary(false, "", new { @class = "text-danger" })
+<form asp-controller="Supplier" asp-action="Create" method="post">
+    <div asp-validation-summary="All" class="text-danger"></div>
 
     <div class="mb-3">
-        @Html.LabelFor(m => m.Name)
-
-        @Html.TextBoxFor(
-            m => m.Name,
-            new { @class = "form-control" })
+        <label for="Name" class="form-label">Name</label>
+        <input asp-for="Name" type="text" class="form-control" />
     </div>
 
     <div class="mb-3">
-        @Html.LabelFor(m => m.Phone)
-
-        @Html.TextBoxFor(
-            m => m.Phone,
-            new { @class = "form-control", type = "tel" })
+        <label for="Phone" class="form-label">Phone</label>
+        <input asp-for="Phone" type="tel" class="form-control" />
     </div>
 
     <div class="mb-3">
-        @Html.LabelFor(m => m.Email)
-
-        @Html.TextBoxFor(
-            m => m.Email,
-            new { @class = "form-control", type = "email" })
+        <label for="Email" class="form-label">Email</label>
+        <input asp-for="Email" type="email" class="form-control" />
     </div>
 
-    <button type="submit" class="btn btn-success">
-        Save
-    </button>
-}
+    <button type="submit" class="btn btn-success">Save</button>
+</form>
 
 <p>
-    @Html.ActionLink("Back to Suppliers", "Index")
+    <a asp-controller="Supplier" asp-action="Index">Back to Suppliers</a>
 </p>

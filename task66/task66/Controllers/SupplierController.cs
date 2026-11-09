@@ -41,5 +41,62 @@ namespace task66.Controllers
 
             return RedirectToAction("Index");
         }
+
+        [HttpGet]
+        public IActionResult Edit(int id)
+        {
+            var supplier = _context.Suppliers.Find(id);
+            if (supplier == null)
+            {
+                return NotFound();
+            }
+
+            return View(supplier);
+        }
+
+        [HttpPost]
+
+        public IActionResult Edit(int id, Supplier supplier)
+        {
+            var supplierr = _context.Suppliers.Find(id);
+
+            if (supplierr == null)
+            {
+                return NotFound();
+            }
+
+            supplierr.Name = supplier.Name;
+            supplierr.Phone = supplier.Phone;
+            supplierr.Email = supplier.Email;
+
+            _context.SaveChanges();
+
+            return RedirectToAction("Index");
+
+        }
+        public IActionResult Details(int id)
+        {
+            var supplier = _context.Suppliers.Find(id);
+            if (supplier == null)
+            {
+                return NotFound();
+            }
+
+            return View(supplier);
+
+        }
+        public IActionResult Delete(int id)
+        {
+            var supplier = _context.Suppliers.Find(id);
+            if (supplier == null)
+            {
+                return NotFound();
+            }
+            _context.Suppliers.Remove(supplier);
+            _context.SaveChanges();
+            return RedirectToAction("Index");
+
+        }
+
     }
 }

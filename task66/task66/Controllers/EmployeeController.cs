@@ -110,7 +110,7 @@ namespace task66.Controllers
             _context.Employees.Remove(employee);
             _context.SaveChanges();
 
-            return RedirectToAction(nameof(Index));
+            return RedirectToAction("Index");
         }
     }
 }

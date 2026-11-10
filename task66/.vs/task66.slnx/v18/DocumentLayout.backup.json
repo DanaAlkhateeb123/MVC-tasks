@@ -3,24 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\MVC-tasks\\task66\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DA08ACF1-F113-BE26-B334-CE8183CC22AD}|task66\\task66.csproj|c:\\users\\user\\desktop\\mvc-tasks\\task66\\task66\\views\\order\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DA08ACF1-F113-BE26-B334-CE8183CC22AD}|task66\\task66.csproj|solutionrelative:task66\\views\\order\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{DA08ACF1-F113-BE26-B334-CE8183CC22AD}|task66\\task66.csproj|c:\\users\\user\\desktop\\mvc-tasks\\task66\\task66\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA08ACF1-F113-BE26-B334-CE8183CC22AD}|task66\\task66.csproj|solutionrelative:task66\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DA08ACF1-F113-BE26-B334-CE8183CC22AD}|task66\\task66.csproj|c:\\users\\user\\desktop\\mvc-tasks\\task66\\task66\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DA08ACF1-F113-BE26-B334-CE8183CC22AD}|task66\\task66.csproj|solutionrelative:task66\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DA08ACF1-F113-BE26-B334-CE8183CC22AD}|task66\\task66.csproj|c:\\users\\user\\desktop\\mvc-tasks\\task66\\task66\\controllers\\suppliercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA08ACF1-F113-BE26-B334-CE8183CC22AD}|task66\\task66.csproj|solutionrelative:task66\\controllers\\suppliercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DA08ACF1-F113-BE26-B334-CE8183CC22AD}|task66\\task66.csproj|c:\\users\\user\\desktop\\mvc-tasks\\task66\\task66\\views\\order\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{DA08ACF1-F113-BE26-B334-CE8183CC22AD}|task66\\task66.csproj|solutionrelative:task66\\views\\order\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DA08ACF1-F113-BE26-B334-CE8183CC22AD}|task66\\task66.csproj|c:\\users\\user\\desktop\\mvc-tasks\\task66\\task66\\views\\order\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DA08ACF1-F113-BE26-B334-CE8183CC22AD}|task66\\task66.csproj|solutionrelative:task66\\views\\order\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{DA08ACF1-F113-BE26-B334-CE8183CC22AD}|task66\\task66.csproj|c:\\users\\user\\desktop\\mvc-tasks\\task66\\task66\\views\\order\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{DA08ACF1-F113-BE26-B334-CE8183CC22AD}|task66\\task66.csproj|solutionrelative:task66\\views\\order\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA08ACF1-F113-BE26-B334-CE8183CC22AD}|task66\\task66.csproj|c:\\users\\user\\desktop\\mvc-tasks\\task66\\task66\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA08ACF1-F113-BE26-B334-CE8183CC22AD}|task66\\task66.csproj|solutionrelative:task66\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA08ACF1-F113-BE26-B334-CE8183CC22AD}|task66\\task66.csproj|c:\\users\\user\\desktop\\mvc-tasks\\task66\\task66\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA08ACF1-F113-BE26-B334-CE8183CC22AD}|task66\\task66.csproj|solutionrelative:task66\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA08ACF1-F113-BE26-B334-CE8183CC22AD}|task66\\task66.csproj|c:\\users\\user\\desktop\\mvc-tasks\\task66\\task66\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA08ACF1-F113-BE26-B334-CE8183CC22AD}|task66\\task66.csproj|solutionrelative:task66\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,16 +46,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MVC-tasks\\task66\\task66\\Views\\Order\\Details.cshtml",
-              "RelativeDocumentMoniker": "task66\\Views\\Order\\Details.cshtml",
-              "ToolTip": "C:\\Users\\user\\Desktop\\MVC-tasks\\task66\\task66\\Views\\Order\\Details.cshtml*",
-              "RelativeToolTip": "task66\\Views\\Order\\Details.cshtml*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAEAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MVC-tasks\\task66\\task66\\Views\\Order\\Index.cshtml",
+              "RelativeDocumentMoniker": "task66\\Views\\Order\\Index.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\MVC-tasks\\task66\\task66\\Views\\Order\\Index.cshtml",
+              "RelativeToolTip": "task66\\Views\\Order\\Index.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-11-09T21:49:03.898Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-10T07:44:10.871Z"
             },
             {
               "$type": "Document",
@@ -55,51 +62,72 @@
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\MVC-tasks\\task66\\task66\\Views\\Order\\Edit.cshtml",
               "RelativeDocumentMoniker": "task66\\Views\\Order\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\user\\Desktop\\MVC-tasks\\task66\\task66\\Views\\Order\\Edit.cshtml*",
-              "RelativeToolTip": "task66\\Views\\Order\\Edit.cshtml*",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwC4AAAAHAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\user\\Desktop\\MVC-tasks\\task66\\task66\\Views\\Order\\Edit.cshtml",
+              "RelativeToolTip": "task66\\Views\\Order\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-11-09T21:48:30.439Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MVC-tasks\\task66\\task66\\Views\\Order\\Create.cshtml",
-              "RelativeDocumentMoniker": "task66\\Views\\Order\\Create.cshtml",
-              "ToolTip": "C:\\Users\\user\\Desktop\\MVC-tasks\\task66\\task66\\Views\\Order\\Create.cshtml*",
-              "RelativeToolTip": "task66\\Views\\Order\\Create.cshtml*",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAQwCoAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-11-09T21:47:54.055Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MVC-tasks\\task66\\task66\\Views\\Order\\Index.cshtml",
-              "RelativeDocumentMoniker": "task66\\Views\\Order\\Index.cshtml",
-              "ToolTip": "C:\\Users\\user\\Desktop\\MVC-tasks\\task66\\task66\\Views\\Order\\Index.cshtml*",
-              "RelativeToolTip": "task66\\Views\\Order\\Index.cshtml*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-11-09T21:46:58.473Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-10T07:42:15.881Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "SupplierController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MVC-tasks\\task66\\task66\\Controllers\\SupplierController.cs",
+              "RelativeDocumentMoniker": "task66\\Controllers\\SupplierController.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\MVC-tasks\\task66\\task66\\Controllers\\SupplierController.cs",
+              "RelativeToolTip": "task66\\Controllers\\SupplierController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-10T06:56:09.649Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MVC-tasks\\task66\\task66\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "task66\\Controllers\\EmployeeController.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\MVC-tasks\\task66\\task66\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "task66\\Controllers\\EmployeeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-10T06:56:01.19Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MVC-tasks\\task66\\task66\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "task66\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\MVC-tasks\\task66\\task66\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "task66\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAAIwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-10T06:55:20.241Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MVC-tasks\\task66\\task66\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "task66\\Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\MVC-tasks\\task66\\task66\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "task66\\Controllers\\CategoryController.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-10T06:52:59.232Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "OrderController.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\MVC-tasks\\task66\\task66\\Controllers\\OrderController.cs",
               "RelativeDocumentMoniker": "task66\\Controllers\\OrderController.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\MVC-tasks\\task66\\task66\\Controllers\\OrderController.cs*",
-              "RelativeToolTip": "task66\\Controllers\\OrderController.cs*",
-              "ViewState": "AgIAAFYAAAAAAAAAAAAAAGQAAAAkAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\user\\Desktop\\MVC-tasks\\task66\\task66\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "task66\\Controllers\\OrderController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAAJUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-09T21:46:05.734Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-09T21:46:05.734Z"
             }
           ]
         }

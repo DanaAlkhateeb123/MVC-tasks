@@ -1,0 +1,34 @@
+﻿@model List<Task8.Models.Product>
+
+<form method="post" action="Create">
+
+    <h3>Create Supply Request</h3>
+
+    @foreach (var product in Model)
+    {
+        <div>
+            <input type="checkbox"
+                   name="productIds"
+                   value="@product.Id" />
+
+            <label>@product.Name</label>
+
+            <label>Available: @product.Quantity</label>
+
+            <label>Quantity:</label>
+
+            <input type="number"
+                   name="quantities"
+                   min="1"
+                   max="@product.Quantity"
+                   value="1" />
+
+            <label>Price: @product.Price</label>
+        </div>
+
+        <hr />
+    }
+
+    <button type="submit">Create Request</button>
+
+</form>

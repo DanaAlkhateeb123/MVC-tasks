@@ -1,0 +1,45 @@
+﻿@model List<Task8.Models.SupplyRequest>
+<h2>My Supply Requests</h2>
+
+<a href="/SupplyRequest/Create" class="btn btn-dark">
+    Add Supply Request
+</a>
+
+<hr />
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Request ID</th>
+            <th>Request Date</th>
+            <th>Total Price</th>
+            <th>Status</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (var request in Model)
+        {
+            <tr>
+                <td>@request.Id</td>
+                <td>@request.RequestDate</td>
+                <td>@request.TotalPrice</td>
+                <td>@request.Status</td>
+                <td>
+                    <a href="/SupplyRequest/Details/@request.Id"
+                       class="btn btn-info btn-sm">Details</a>
+
+                    @if (request.Status == 0)
+                    {
+                        <a href="/SupplyRequest/Edit/@request.Id"
+                           class="btn btn-warning btn-sm">Edit</a>
+
+                        <a href="/SupplyRequest/Delete/@request.Id"
+                           class="btn btn-danger btn-sm">Delete</a>
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

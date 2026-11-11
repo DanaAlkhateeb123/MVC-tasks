@@ -1,0 +1,8 @@
+﻿
+
+<select name="roleId">
+    @foreach (var item in ViewBag.Roles)
+    {
+        <option value="@item.Id">@item.Name</option>
+    }
+</select>

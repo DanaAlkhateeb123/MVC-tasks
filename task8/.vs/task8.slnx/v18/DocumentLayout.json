@@ -3,12 +3,64 @@
   "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\MVC-tasks\\task8\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B057832D-E0D8-6425-5BA7-52996D78213F}|task8\\task8.csproj|c:\\users\\user\\desktop\\mvc-tasks\\task8\\task8\\views\\supplyrequest\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B057832D-E0D8-6425-5BA7-52996D78213F}|task8\\task8.csproj|solutionrelative:task8\\views\\supplyrequest\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B057832D-E0D8-6425-5BA7-52996D78213F}|task8\\task8.csproj|c:\\users\\user\\desktop\\mvc-tasks\\task8\\task8\\views\\supplyrequest\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B057832D-E0D8-6425-5BA7-52996D78213F}|task8\\task8.csproj|solutionrelative:task8\\views\\supplyrequest\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B057832D-E0D8-6425-5BA7-52996D78213F}|task8\\task8.csproj|c:\\users\\user\\desktop\\mvc-tasks\\task8\\task8\\views\\supplyrequest\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B057832D-E0D8-6425-5BA7-52996D78213F}|task8\\task8.csproj|solutionrelative:task8\\views\\supplyrequest\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B057832D-E0D8-6425-5BA7-52996D78213F}|task8\\task8.csproj|c:\\users\\user\\desktop\\mvc-tasks\\task8\\task8\\views\\supplyrequest\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B057832D-E0D8-6425-5BA7-52996D78213F}|task8\\task8.csproj|solutionrelative:task8\\views\\supplyrequest\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B057832D-E0D8-6425-5BA7-52996D78213F}|task8\\task8.csproj|c:\\users\\user\\desktop\\mvc-tasks\\task8\\task8\\views\\supplyrequest\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B057832D-E0D8-6425-5BA7-52996D78213F}|task8\\task8.csproj|solutionrelative:task8\\views\\supplyrequest\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B057832D-E0D8-6425-5BA7-52996D78213F}|task8\\task8.csproj|c:\\users\\user\\desktop\\mvc-tasks\\task8\\task8\\models\\supplyrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B057832D-E0D8-6425-5BA7-52996D78213F}|task8\\task8.csproj|solutionrelative:task8\\models\\supplyrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{B057832D-E0D8-6425-5BA7-52996D78213F}|task8\\task8.csproj|c:\\users\\user\\desktop\\mvc-tasks\\task8\\task8\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B057832D-E0D8-6425-5BA7-52996D78213F}|task8\\task8.csproj|solutionrelative:task8\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B057832D-E0D8-6425-5BA7-52996D78213F}|task8\\task8.csproj|c:\\users\\user\\desktop\\mvc-tasks\\task8\\task8\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B057832D-E0D8-6425-5BA7-52996D78213F}|task8\\task8.csproj|solutionrelative:task8\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B057832D-E0D8-6425-5BA7-52996D78213F}|task8\\task8.csproj|c:\\users\\user\\desktop\\mvc-tasks\\task8\\task8\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B057832D-E0D8-6425-5BA7-52996D78213F}|task8\\task8.csproj|solutionrelative:task8\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B057832D-E0D8-6425-5BA7-52996D78213F}|task8\\task8.csproj|c:\\users\\user\\desktop\\mvc-tasks\\task8\\task8\\views\\product\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B057832D-E0D8-6425-5BA7-52996D78213F}|task8\\task8.csproj|solutionrelative:task8\\views\\product\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B057832D-E0D8-6425-5BA7-52996D78213F}|task8\\task8.csproj|c:\\users\\user\\desktop\\mvc-tasks\\task8\\task8\\views\\product\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B057832D-E0D8-6425-5BA7-52996D78213F}|task8\\task8.csproj|solutionrelative:task8\\views\\product\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B057832D-E0D8-6425-5BA7-52996D78213F}|task8\\task8.csproj|c:\\users\\user\\desktop\\mvc-tasks\\task8\\task8\\views\\product\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B057832D-E0D8-6425-5BA7-52996D78213F}|task8\\task8.csproj|solutionrelative:task8\\views\\product\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B057832D-E0D8-6425-5BA7-52996D78213F}|task8\\task8.csproj|c:\\users\\user\\desktop\\mvc-tasks\\task8\\task8\\controllers\\supplyrequestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B057832D-E0D8-6425-5BA7-52996D78213F}|task8\\task8.csproj|solutionrelative:task8\\controllers\\supplyrequestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B057832D-E0D8-6425-5BA7-52996D78213F}|task8\\task8.csproj|c:\\users\\user\\desktop\\mvc-tasks\\task8\\task8\\views\\role\\addrole.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B057832D-E0D8-6425-5BA7-52996D78213F}|task8\\task8.csproj|solutionrelative:task8\\views\\role\\addrole.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B057832D-E0D8-6425-5BA7-52996D78213F}|task8\\task8.csproj|c:\\users\\user\\desktop\\mvc-tasks\\task8\\task8\\views\\role\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B057832D-E0D8-6425-5BA7-52996D78213F}|task8\\task8.csproj|solutionrelative:task8\\views\\role\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B057832D-E0D8-6425-5BA7-52996D78213F}|task8\\task8.csproj|c:\\users\\user\\desktop\\mvc-tasks\\task8\\task8\\controllers\\requestitemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -62,11 +114,90 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "SupplyRequestController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MVC-tasks\\task8\\task8\\Controllers\\SupplyRequestController.cs",
+              "RelativeDocumentMoniker": "task8\\Controllers\\SupplyRequestController.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\MVC-tasks\\task8\\task8\\Controllers\\SupplyRequestController.cs",
+              "RelativeToolTip": "task8\\Controllers\\SupplyRequestController.cs",
+              "ViewState": "AgIAAA0BAAAAAAAAAAAAABkBAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-10T23:25:13.359Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MVC-tasks\\task8\\task8\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "task8\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\MVC-tasks\\task8\\task8\\Models\\Product.cs",
+              "RelativeToolTip": "task8\\Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-11T04:51:31.933Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MVC-tasks\\task8\\task8\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "task8\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\MVC-tasks\\task8\\task8\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "task8\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-11T04:48:24.058Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MVC-tasks\\task8\\task8\\Views\\SupplyRequest\\Delete.cshtml",
+              "RelativeDocumentMoniker": "task8\\Views\\SupplyRequest\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\MVC-tasks\\task8\\task8\\Views\\SupplyRequest\\Delete.cshtml",
+              "RelativeToolTip": "task8\\Views\\SupplyRequest\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-11T04:42:02.642Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MVC-tasks\\task8\\task8\\Views\\SupplyRequest\\Edit.cshtml",
+              "RelativeDocumentMoniker": "task8\\Views\\SupplyRequest\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\MVC-tasks\\task8\\task8\\Views\\SupplyRequest\\Edit.cshtml",
+              "RelativeToolTip": "task8\\Views\\SupplyRequest\\Edit.cshtml",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwDkAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-11T04:41:10.461Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MVC-tasks\\task8\\task8\\Views\\SupplyRequest\\Create.cshtml",
+              "RelativeDocumentMoniker": "task8\\Views\\SupplyRequest\\Create.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\MVC-tasks\\task8\\task8\\Views\\SupplyRequest\\Create.cshtml",
+              "RelativeToolTip": "task8\\Views\\SupplyRequest\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-11T04:38:39.152Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "SupplyRequest.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\MVC-tasks\\task8\\task8\\Models\\SupplyRequest.cs",
               "RelativeDocumentMoniker": "task8\\Models\\SupplyRequest.cs",
@@ -79,80 +210,80 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MVC-tasks\\task8\\task8\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "task8\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\MVC-tasks\\task8\\task8\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "task8\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-10T23:26:28.16Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "AdminController.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MVC-tasks\\task8\\task8\\Controllers\\AdminController.cs",
-              "RelativeDocumentMoniker": "task8\\Controllers\\AdminController.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\MVC-tasks\\task8\\task8\\Controllers\\AdminController.cs",
-              "RelativeToolTip": "task8\\Controllers\\AdminController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-10T23:26:25.766Z",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MVC-tasks\\task8\\task8\\Views\\SupplyRequest\\Index.cshtml",
+              "RelativeDocumentMoniker": "task8\\Views\\SupplyRequest\\Index.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\MVC-tasks\\task8\\task8\\Views\\SupplyRequest\\Index.cshtml",
+              "RelativeToolTip": "task8\\Views\\SupplyRequest\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-11T04:37:28.417Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AccontController.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MVC-tasks\\task8\\task8\\Controllers\\AccontController.cs",
-              "RelativeDocumentMoniker": "task8\\Controllers\\AccontController.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\MVC-tasks\\task8\\task8\\Controllers\\AccontController.cs",
-              "RelativeToolTip": "task8\\Controllers\\AccontController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-10T23:26:23.734Z",
+              "DocumentIndex": 2,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MVC-tasks\\task8\\task8\\Views\\SupplyRequest\\Details.cshtml",
+              "RelativeDocumentMoniker": "task8\\Views\\SupplyRequest\\Details.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\MVC-tasks\\task8\\task8\\Views\\SupplyRequest\\Details.cshtml",
+              "RelativeToolTip": "task8\\Views\\SupplyRequest\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-11T04:40:38.046Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "SupplyRequestController.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MVC-tasks\\task8\\task8\\Controllers\\SupplyRequestController.cs",
-              "RelativeDocumentMoniker": "task8\\Controllers\\SupplyRequestController.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\MVC-tasks\\task8\\task8\\Controllers\\SupplyRequestController.cs",
-              "RelativeToolTip": "task8\\Controllers\\SupplyRequestController.cs",
-              "ViewState": "AgIAAAsBAAAAAAAAAAAAABYBAAAFAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MVC-tasks\\task8\\task8\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "task8\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\MVC-tasks\\task8\\task8\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "task8\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-10T23:25:13.359Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MVC-tasks\\task8\\task8\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "task8\\Controllers\\ProductController.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\MVC-tasks\\task8\\task8\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "task8\\Controllers\\ProductController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-10T23:25:05.591Z",
+              "WhenOpened": "2026-11-11T04:44:09.58Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "RequestItem.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MVC-tasks\\task8\\task8\\Models\\RequestItem.cs",
-              "RelativeDocumentMoniker": "task8\\Models\\RequestItem.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\MVC-tasks\\task8\\task8\\Models\\RequestItem.cs",
-              "RelativeToolTip": "task8\\Models\\RequestItem.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-10T23:23:41.051Z",
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MVC-tasks\\task8\\task8\\Views\\Product\\Create.cshtml",
+              "RelativeDocumentMoniker": "task8\\Views\\Product\\Create.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\MVC-tasks\\task8\\task8\\Views\\Product\\Create.cshtml",
+              "RelativeToolTip": "task8\\Views\\Product\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-11T04:39:41.154Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MVC-tasks\\task8\\task8\\Views\\Product\\Delete.cshtml",
+              "RelativeDocumentMoniker": "task8\\Views\\Product\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\MVC-tasks\\task8\\task8\\Views\\Product\\Delete.cshtml",
+              "RelativeToolTip": "task8\\Views\\Product\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-11T04:39:44.425Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MVC-tasks\\task8\\task8\\Views\\Product\\Details.cshtml",
+              "RelativeDocumentMoniker": "task8\\Views\\Product\\Details.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\MVC-tasks\\task8\\task8\\Views\\Product\\Details.cshtml",
+              "RelativeToolTip": "task8\\Views\\Product\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-11T04:39:45.704Z",
               "EditorCaption": ""
             },
             {
@@ -161,7 +292,93 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
+              "Title": "AddRole.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MVC-tasks\\task8\\task8\\Views\\Role\\AddRole.cshtml",
+              "RelativeDocumentMoniker": "task8\\Views\\Role\\AddRole.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\MVC-tasks\\task8\\task8\\Views\\Role\\AddRole.cshtml",
+              "RelativeToolTip": "task8\\Views\\Role\\AddRole.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-11T04:36:26.598Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MVC-tasks\\task8\\task8\\Views\\Role\\Index.cshtml",
+              "RelativeDocumentMoniker": "task8\\Views\\Role\\Index.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\MVC-tasks\\task8\\task8\\Views\\Role\\Index.cshtml",
+              "RelativeToolTip": "task8\\Views\\Role\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-11T04:35:41.15Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MVC-tasks\\task8\\task8\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "task8\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\MVC-tasks\\task8\\task8\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "task8\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-10T23:26:28.16Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MVC-tasks\\task8\\task8\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "task8\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\MVC-tasks\\task8\\task8\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "task8\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-10T23:26:25.766Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AccontController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MVC-tasks\\task8\\task8\\Controllers\\AccontController.cs",
+              "RelativeDocumentMoniker": "task8\\Controllers\\AccontController.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\MVC-tasks\\task8\\task8\\Controllers\\AccontController.cs",
+              "RelativeToolTip": "task8\\Controllers\\AccontController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-10T23:26:23.734Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MVC-tasks\\task8\\task8\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "task8\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\MVC-tasks\\task8\\task8\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "task8\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-10T23:25:05.591Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "RequestItem.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MVC-tasks\\task8\\task8\\Models\\RequestItem.cs",
+              "RelativeDocumentMoniker": "task8\\Models\\RequestItem.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\MVC-tasks\\task8\\task8\\Models\\RequestItem.cs",
+              "RelativeToolTip": "task8\\Models\\RequestItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-10T23:23:41.051Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\MVC-tasks\\task8\\task8\\Views\\RequestItem\\Edit.cshtml",
               "RelativeDocumentMoniker": "task8\\Views\\RequestItem\\Edit.cshtml",
@@ -169,12 +386,11 @@
               "RelativeToolTip": "task8\\Views\\RequestItem\\Edit.cshtml",
               "ViewState": "AgIAABcAAAAAAAAAAAAQwDwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-11-10T23:21:41.242Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-10T23:21:41.242Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 15,
               "Title": "RequestItemController.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\MVC-tasks\\task8\\task8\\Controllers\\RequestItemController.cs",
               "RelativeDocumentMoniker": "task8\\Controllers\\RequestItemController.cs",
@@ -182,12 +398,11 @@
               "RelativeToolTip": "task8\\Controllers\\RequestItemController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-10T23:18:31.178Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-10T23:18:31.178Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 24,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\MVC-tasks\\task8\\task8\\Views\\RequestItem\\Delete.cshtml",
               "RelativeDocumentMoniker": "task8\\Views\\RequestItem\\Delete.cshtml",
@@ -195,12 +410,11 @@
               "RelativeToolTip": "task8\\Views\\RequestItem\\Delete.cshtml",
               "ViewState": "AgIAAB4AAAAAAAAAAAAQwEEAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-11-10T23:21:02.566Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-10T23:21:02.566Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 25,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\MVC-tasks\\task8\\task8\\Views\\RequestItem\\Create.cshtml",
               "RelativeDocumentMoniker": "task8\\Views\\RequestItem\\Create.cshtml",
@@ -208,12 +422,11 @@
               "RelativeToolTip": "task8\\Views\\RequestItem\\Create.cshtml",
               "ViewState": "AgIAABgAAAAAAAAAAAAQwDsAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-11-10T23:20:41.514Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-10T23:20:41.514Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 20,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\MVC-tasks\\task8\\task8\\Views\\RequestItem\\Details.cshtml",
               "RelativeDocumentMoniker": "task8\\Views\\RequestItem\\Details.cshtml",
@@ -221,12 +434,11 @@
               "RelativeToolTip": "task8\\Views\\RequestItem\\Details.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-11-10T23:20:27.525Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-10T23:20:27.525Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 21,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\MVC-tasks\\task8\\task8\\Views\\RequestItem\\Index.cshtml",
               "RelativeDocumentMoniker": "task8\\Views\\RequestItem\\Index.cshtml",
@@ -234,8 +446,7 @@
               "RelativeToolTip": "task8\\Views\\RequestItem\\Index.cshtml",
               "ViewState": "AgIAAB0AAAAAAAAAAAAQwC0AAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-11-10T23:19:16.717Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-10T23:19:16.717Z"
             }
           ]
         }

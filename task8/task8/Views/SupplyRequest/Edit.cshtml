@@ -1,0 +1,58 @@
+﻿@model SupplyRequest
+@using Task8.Models
+
+<h2>Edit Supply Request</h2>
+
+@if (ViewBag.Error != null)
+{
+    <div class="alert alert-danger">
+        @ViewBag.Error
+    </div>
+}
+
+<form method="post" action="/SupplyRequest/Edit/@Model.Id">
+
+    <input type="hidden" name="id" value="@Model.Id" />
+
+    <h4>Choose Products</h4>
+
+    @foreach (var product in ViewBag.Products)
+    {
+        <div class="border p-3 mb-3">
+
+            <h5>@product.Name</h5>
+
+            <p>Price: @product.Price</p>
+            <p>Available Quantity: @product.Quantity</p>
+
+            <input type="checkbox"
+                   name="productIds"
+                   value="@product.Id"
+                   id="product_@product.Id" />
+
+            <label for="product_@product.Id">
+                Select this product
+            </label>
+
+            <br />
+
+            <label>Quantity:</label>
+
+            <input type="number"
+                   name="quantities"
+                   min="1"
+                   value="1"
+                   class="form-control" />
+
+        </div>
+    }
+
+    <button type="submit" class="btn btn-dark">
+        Save Changes
+    </button>
+
+    <a href="/SupplyRequest/Index" class="btn btn-secondary">
+        Cancel
+    </a>
+
+</form>

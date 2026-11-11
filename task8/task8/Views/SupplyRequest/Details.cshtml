@@ -1,0 +1,33 @@
+﻿@model SupplyRequest
+@using Task8.Models
+
+<h2>Supply Request Details</h2>
+
+<p><strong>Request ID:</strong> @Model.Id</p>
+<p><strong>Request Date:</strong> @Model.RequestDate</p>
+<p><strong>Total Price:</strong> @Model.TotalPrice</p>
+<p><strong>Status:</strong> @Model.Status</p>
+
+<h3>Request Items</h3>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Product</th>
+            <th>Quantity</th>
+            <th>Price</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.requestItems)
+        {
+            <tr>
+                <td>@item.Product.Name</td>
+                <td>@item.Quantity</td>
+                <td>@item.Price</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<a href="/SupplyRequest/Index" class="btn btn-dark">Back</a>
